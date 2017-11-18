@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WTF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="meme.js"></script>
+  <script src="script.js"></script>
+  <script src="wtfrudoin.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/ckilogo.png" type="image/x-icon">
+</head>
+<body>
+	<div class="content">
+				
+<nav class="navbar navbar-default shadow">
+  <div id="header">
+    <a href="index.html"><img src="./images/header2.png" style="width:100%;"></a>
+  </div>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div id="navBarHeader"class="navbar-header"> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <div id="logocontainer">
+     <img src="./images/ckilogo.png" alt="Het glorieuze CKI logo!" style="height:80%; margin-top:5px; margin-right:15px;">
+    </div>    
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="navUnits" class="nav navbar-nav collapsed">
+        <li class="active"><a data-toggle="tab" href="#wtfrudoin">WTF</a></li>
+  		  <li><a data-toggle="tab" href="#goodluck">Good Luck</a></li>
+  		  <li><a data-toggle="tab" href="#memecountry">Meme Country</a></li>
+		    <li><a data-toggle="tab" href="#sudoku">Sudoku</a></li>
+
+      </ul>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div class="tab-content">
+		  <div id="sudoku" class="tab-pane fade">
+			 <h3>Sudoku</h3>
+			 <p>Welkom bij onze sudoku-easter egg!</p>
+		 	<img src="./images/sudoku.jpg" />
+		 	<br />
+		 	<input id="sudokuInput" placeholder="Answer" />
+		 	<button value="Yes!" onclick="checkSudoku(document.getElementById('sudokuInput').value)">Submit</button>
+		  </div>
+		  <div id="memecountry" class="tab-pane fade">
+		    <h3>Mememememememememe</h3>
+		    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/x0Irh7jGs-w?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe></p>
+		    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/VJ1dYrjuYf4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe></p>
+		    <span>Random number 1</span>
+		    <br />
+		    <p id="randomNumber1"></p>
+		    <br />
+		    <span>Random number 2</span>
+		    <br />
+		    <p id="randomNumber2"></p>
+		    <button onclick="generateNumber2()" > Generate number 2!</button>
+		  </div>
+		  <div id="goodluck" class="tab-pane fade">
+			 <h3>Sterkte</h3>
+			 <p>Good luck</p>
+		  </div>
+      <div id="wtfrudoin" class="tab-pane fade in active">
+       <h3>Waar ben je mee eigenlijk mee bezig?</h3>
+       <p>Moet je niet studeren oid?</p>
+       <a href="http://rednuht.org/genetic_cars_2/" class="invis5 button">I know... Maar maymays!</a>
+       <a href="#" class="invis20 button">Klik.</a>
+      </div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,3 +1,4 @@
+var counter=0;
 		$(document).ready(function(event){
 		    var windowWidth = $(window).width();
 		    var windowHeight = $(window).height();
@@ -35,8 +36,12 @@
 				$('#navBarHeader').removeProp('data-toggle');
 				$('#navUnits').removeProp('data-target');
 				$('#navBarHeader').removeProp('data-target');
-				$('#logocontainer').empty();
-				$('#logocontainer').html('<br />8===D<a href="sudoku.html">~~</a>');
+				if(counter===2){
+					$('#logocontainer').empty();
+					$('#logocontainer').html('<br />8===D<a href="sudoku.html">~~</a>');
+				}else{
+					counter++;
+				}
 			}
 		});
 

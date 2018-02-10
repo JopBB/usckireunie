@@ -1,74 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Incognito Reünie</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="./images/ckilogo.png" type="image/x-icon">
-</head>
-<body>
-	<div class="content">
-				
-<nav class="navbar navbar-default shadow">
-  <div id="header">
-    <a href="#"><img src="./images/header2.png" style="width:100%;"></a>
-  </div>
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div id="navBarHeader"class="navbar-header"> 
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    <div id="logocontainer">
- <img src="./images/ckilogo.png" alt="Het glorieuze CKI logo!" style="height:80%; margin-top:5px; margin-right:15px;">
-    </div>    
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul id="navUnits" class="nav navbar-nav collapsed">
-		  <li class="active"><a data-toggle="tab" href="#informatie">Informatie</a></li>
-		  <li><a data-toggle="tab" href="#sprekers">Sprekers</a></li>
-		  <li><a data-toggle="tab" href="#programma">Programma</a></li>
-		  <li><a data-toggle="tab" href="#inschrijven">Inschrijven</a></li>
-		  <li><a data-toggle="tab" href="#contact">Contact</a></li>
-      </ul>
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-  <div class="tab-content">
-		  <div id="informatie" class="tab-pane fade in active">
-		    <h3>Info</h3>
-		    <p>Some content.</p>
-		  </div>
-		  <div id="sprekers" class="tab-pane fade">
-		    <h3>Sprekers</h3>
-		    <p>Some content in menu 1.</p>
-		  </div>
-		  <div id="programma" class="tab-pane fade">
-		    <h3>Programma</h3>
-		    <p>Some content in menu 2.</p>
-		  </div>
-		  <div id="inschrijven" class="tab-pane fade">
-		    <h3>Inschrijven</h3>
-			<iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfhho_1nZsgX8ZMqamaPX8_FM-vSG2yA3-AuvWUML1UOFyEtQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-			<span><a href="http://bit.ly/1MW7UnO">Lekker gescrolld?</a></span>
-		  </div>
-		  <div id="contact" class="tab-pane fade">
-		    <h3>Contact</h3>
-		    <p>Some content in menu 2.</p>
-		  </div>
-		</div>
-	</div>
-</body>
-</html>
+  <head>
+    <title>Incognito Reünie</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/ckilogo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="content">
+      
+      <nav class="navbar navbar-default shadow">
+        <div id="header">
+          <a href="#"><img src="./images/header2.png" style="width:100%;"></a>
+        </div>
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div id="navBarHeader"class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <div id="logocontainer">
+              <img src="./images/ckilogo.png" alt="Het glorieuze CKI logo!" style="height:80%; margin-top:5px; margin-right:15px;">
+            </div>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul id="navUnits" class="nav navbar-nav collapsed">
+              <li class="active"><a data-toggle="tab" href="#informatie">Informatie</a></li>
+              <li><a data-toggle="tab" href="#sprekers">Sprekers</a></li>
+              <li><a data-toggle="tab" href="#programma">Programma</a></li>
+              <li><a data-toggle="tab" href="#inschrijven">Inschrijven</a></li>
+              <li><a data-toggle="tab" href="#contact">Contact</a></li>
+            </ul>
+            
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          <div class="tab-content">
+            <div id="informatie" class="tab-pane fade in active">
+              <div id="informatieText">
+                <h3>Algemene informatie</h3>
+                <p>
+                  Op 2 juli 2018 organiseert U.S.C.K.I. Incognito, vijf jaar na de vorige, weer een reünie!
+                </p>
+                <p>
+                  Dit feestelijke evenement zal plaats vinden in het uithof-paviljoen "De Vagant", voor alle leden, oud-leden en alumni van Incognito.<br />
+                  De reünie zal een combinatie zijn van praatjes over vroeger en nu, en natuurlijk vooral bijpraten met oude bekenden onder het genot van een drankje. <br />
+                </p>
+                <br />
+                <p>
+                  <blink><b>Essentiële informatie</b></blink><br />
+                  <table class="infoTabel">
+                    <tr>
+                      <td>
+                        Wanneer:
+                      </td>
+                      <td>
+                        2 juli 2018, vanaf 14:00
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Waar:
+                      </td>
+                      <td>
+                        <u><a href="https://www.google.nl/maps/place/Budapestlaan+4,+3584+CD+Utrecht/@52.0872503,5.1661013,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6689992c482c5:0x9d5efa0e2b83a1d!8m2!3d52.087247!4d5.16829?hl=en">De Vagant</a></u>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Hoeveel:
+                      </td>
+                      <td>
+                        €30,-
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Wat:
+                      </td>
+                      <td>
+                        Drankjes, diner, pubquiz, gezelligheid
+                      </td>
+                    </tr>
+                  </table>
+                </p>
+              </div>
+              <div id="logoGroot">
+                <img src="./images/logo.jpg">
+              </div>
+              <div id="informationBackground">
+              </div>
+            </div>
+            <div id="sprekers" class="tab-pane fade">
+              <h3>Sprekers</h3>
+              <p>Enkele sprekers zullen binnenkort bekend worden gemaakt!</p>
+            </div>
+            <div id="programma" class="tab-pane fade">
+              <h3>Programma</h3>
+              <p>Het programma wordt binnenkort bekend gemaakt!</p>
+            </div>
+            <div id="inschrijven" class="tab-pane fade">
+              <h3>Inschrijven</h3>
+              <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfhho_1nZsgX8ZMqamaPX8_FM-vSG2yA3-AuvWUML1UOFyEtQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <span><a href="http://bit.ly/1MW7UnO">Lekker gescrolld?</a></span>
+            </div>
+            <div id="contact" class="tab-pane fade">
+              <h3>Contact</h3>
+              <p>
+                Voor vragen, extra informatie of opmerkingen kan altijd gemaild worden naar Kevin of Levien.<br />
+                Voor dringende vragen kunnen zij natuurlijk ook gebeld worden!
+              </p>
+              <div class="contactDiv">
+                <div id="kevin">
+                  <b>Kevin Hardeman (commissievoorzitter)</b><br />
+                  +31 6 27917742<br />
+                  <a href="mailto:kevinhardeman88@gmail.com">kevinhardeman88@gmail.com</a>
+                </div>
+                <div id="heleCommissie">
+                  <b>Gehele commissie</b><br />
+                  <a href="mailto:aluminium@uscki.nl">aluminium@uscki.nl</a>
+                </div>
+                <div id="contactBackground">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>

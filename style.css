@@ -61,9 +61,6 @@ h1, h2, h3, h4{
   float:left;
   margin-left:10px;
 }
-.penis{
-
-}
 
 ::-webkit-scrollbar { 
     display: none; 
@@ -93,4 +90,74 @@ input{
 }
 .button:hover{
   text-decoration: none;
-};
+}
+
+.contactTable, .contentTable{
+  width:100%;
+  margin-top:20px;
+  text-align: justify;
+}
+
+.contactTable td, .contentTable td{
+  vertical-align: top
+}
+
+.infoTabel tr td:nth-child(odd){
+  text-align: right;
+}
+.infoTabel td{
+  padding:0 5px 0 0;
+  vertical-align: top;
+}
+
+#logoGroot{
+  float:left;
+  width:40%;
+
+}
+#logoGroot img{
+  width:100%;
+}
+
+#informatieText{
+  float:left;
+  width:60%; 
+}
+
+#informationBackground{
+  height:450px;
+}
+
+
+#kevin{
+  float:left;
+  width:65%;
+}
+
+.contactDiv{
+  margin-top:20px;
+}
+
+#heleCommissie{
+  float:right;
+  width:35%;
+}
+
+#contactBackground{
+  height:80px;
+}
+
+@media screen and (max-width:800px){
+  #informatieText, #kevin, #heleCommissie{
+      width:100%;
+    }
+  #logoGroot{
+    display: none;
+  }
+  #heleCommissie{
+    margin-top:20px;
+  }
+  #contactBackground{
+    height:130px;
+  }
+}

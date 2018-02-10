@@ -104,10 +104,21 @@ input{
 
 .infoTabel tr td:nth-child(odd){
   text-align: right;
+  border-right:1px solid #555;
+  padding-right:7px;
+  font-style: italic;
 }
+
+.infoTabel tr td:nth-child(even){
+  padding-left:7px;
+}
+
+
+
 .infoTabel td{
   padding:0 5px 0 0;
   vertical-align: top;
+  line-height: 1.5em
 }
 
 #logoGroot{

@@ -76,7 +76,7 @@ input{
   margin-top:20px;
 }
 
-.invis5, .invis20{
+.invis5, .invis20, .invis{
   display:none;
 }
 
@@ -172,3 +172,12 @@ input{
     height:130px;
   }
 }
+
+.red{
+  color:red;
+}
+
+#deR{
+  font-size:5pt;
+}
+

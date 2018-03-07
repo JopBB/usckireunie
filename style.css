@@ -136,7 +136,7 @@ input{
 }
 
 #informationBackground{
-  height:450px;
+  height:500px;
 }
 
 
@@ -181,3 +181,13 @@ input{
   font-size:5pt;
 }
 
+#programmaTabel{
+  border:none;
+  text-align: right;
+}
+
+#commissieFoto{
+  border-radius: 140px;
+  width:100%;
+
+}

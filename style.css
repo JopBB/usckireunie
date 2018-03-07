@@ -162,11 +162,16 @@ input{
   font-size: 9pt;
 }
 
+#contactTable td{
+  width:50%;
+  vertical-align:top;
+}
+
 @media screen and (max-width:800px){
   #voorbehoud{
     display: block;
   }
-  
+
   #informatieText, #kevin, #heleCommissie{
       width:100%;
     }
@@ -176,6 +181,14 @@ input{
   #heleCommissie{
     margin-top:20px;
   }
+
+  #contactTable td{
+    display: block;
+    width: 100%;
+    float: left;
+
+  }
+
   #contactBackground{
     height:130px;
   }

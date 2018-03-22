@@ -212,3 +212,21 @@ input{
   width:100%;
 
 }
+
+.routeFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.routeFlex p{
+  width:50%;
+}
+
+@media screen and (max-width:800px){
+  .routeFlex{
+    flex-direction:column;
+  }
+  .routeFlex p, .routeFlex iframe{
+    width:100%;
+  }
+}

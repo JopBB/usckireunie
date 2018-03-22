@@ -222,6 +222,10 @@ input{
   width:50%;
 }
 
+.routeFlex iframe{
+  width:50%;
+}
+
 @media screen and (max-width:800px){
   .routeFlex{
     flex-direction:column;
